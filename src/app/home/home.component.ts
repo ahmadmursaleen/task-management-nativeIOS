@@ -12,6 +12,9 @@ export class HomeComponent implements OnInit {
         // Use the component constructor to inject providers.
     }
 
+    login (){
+        alert("login");
+    }
     ngOnInit(): void {
         // Init your component properties here.
     }
